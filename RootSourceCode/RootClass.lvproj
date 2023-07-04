@@ -19,21 +19,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Root</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Root-PLLLib</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../ChildrenSourcecode</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0C2FD8A-1BAC-4784-8B6D-FF91F7BD222C}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Root.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Root-PLLLib/Root.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../ChildrenSourcecode/Root.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Root-PLLLib</Property>
+				<Property Name="Destination[1].path" Type="Path">../ChildrenSourcecode</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9768EC9D-C55E-4973-B6F7-D6DC4FC62042}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E548DB3-05AA-463D-B84F-87F10008D088}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Root.lvlib</Property>

@@ -10,10 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Root-PLLLib" Type="Folder" URL="../../Root-PLLLib">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name=".lib" Type="Folder">
+			<Item Name="Root.lvlibp" Type="LVLibp" URL="../Root.lvlibp">
+				<Item Name="Root.lvclass" Type="LVClass" URL="../Root.lvlibp/Root.lvclass"/>
+			</Item>
 		</Item>
-		<Item Name="add.lvlib" Type="Library" URL="../add.lvlib"/>
+		<Item Name="add.lvlib" Type="Library" URL="../add/add.lvlib"/>
 		<Item Name="divide.lvlib" Type="Library" URL="../divide/divide.lvlib"/>
 		<Item Name="multiple.lvlib" Type="Library" URL="../multiple/multiple.lvlib"/>
 		<Item Name="subtract.lvlib" Type="Library" URL="../subtract/subtract.lvlib"/>
@@ -29,19 +31,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{543F3A36-4662-4507-A92C-398410856959}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">add.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib/add.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../_lib/add.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../_lib</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E079AF5-8F7E-40D6-B8A7-0C8CF0D8C709}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C1826AF-74A5-4389-9BA0-FAF68C137084}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/add.lvlib</Property>
@@ -70,19 +70,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EBF3F26F-37AC-490B-AFA3-CB4AB091ACDA}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">divide.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib/divide.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../_lib/divide.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../_lib</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E079AF5-8F7E-40D6-B8A7-0C8CF0D8C709}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1BE7493C-4B11-4443-8C49-88143A2C6E39}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/add.lvlib</Property>
@@ -119,19 +117,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{65620678-9CAA-4F7E-A15E-5D4A31A34257}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">multiple.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib/multiple.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../_lib/multiple.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../_lib</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E079AF5-8F7E-40D6-B8A7-0C8CF0D8C709}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1BE7493C-4B11-4443-8C49-88143A2C6E39}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/add.lvlib</Property>
@@ -172,19 +168,17 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{312B2B9E-2E14-414D-8B40-BF77959D1722}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">subtract.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib/subtract.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../_lib/subtract.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/liyao/Desktop/Example/_lib</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../_lib</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E079AF5-8F7E-40D6-B8A7-0C8CF0D8C709}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1BE7493C-4B11-4443-8C49-88143A2C6E39}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/add.lvlib</Property>

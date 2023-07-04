@@ -29,7 +29,7 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Root.lvlibp:Root.lvclass" Type="Parent" URL="../../../Root-PLLLib/Root.lvlibp/Root.lvclass"/>
+		<Item Name="Root.lvlibp:Root.lvclass" Type="Parent" URL="../../Root.lvlibp/Root.lvclass"/>
 	</Item>
 	<Item Name="multiple.ctl" Type="Class Private Data" URL="multiple.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
